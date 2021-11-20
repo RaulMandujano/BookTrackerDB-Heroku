@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Book Tracker</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="reset.css" />
+
+		<style>
+			.checked {
+				color: orange;
+			}
+			.btn {
+				border-radius: 10%;
+			}
+
+			.btn-success {
+				background-color: green;
+				color: white;
+			}
+		</style>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<div class="main-container">
+			<div id="app-container">
+				<h1>Book Tracker</h1>
+				<form id="search-form">
+					<input type="text" value="" id="txt-search" />
+					<button id="btn-search" type="submit">Search</button>
+				</form>
+
+				<div class="warning">
+					<p>Double Click on Book Name to remove it from list!!</p>
+				</div>
+
+				<div class="main-content">
+					<div class="books-container">
+						<h2>Found books</h2>
+						<ul id="books-list"></ul>
+					</div>
+
+					<div class="my-books-container">
+						<h2>My Books</h2>
+						<ul class="my-books-list"></ul>
+					</div>
+
+					<div class="read-books">
+						<h2>Books already read</h2>
+						<ul class="read-books-list"></ul>
+					</div>
+
+					<div class="wish-books">
+						<h2>Wish to Read</h2>
+						<ul class="wish-books-list"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="app.js"></script>
+	</body>
+</html>

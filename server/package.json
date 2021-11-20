@@ -1,0 +1,22 @@
+{
+	"name": "book_tracker_backend",
+	"version": "1.0.0",
+	"description": "Backend of Books Tracker app.",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index",
+		"dev": "nodemon index"
+	},
+	"author": "Basit Ali",
+	"license": "MIT",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"mongoose": "^6.0.12",
+		"nodemon": "^2.0.15"
+	},
+	"devDependencies": {
+		"@types/node": "^16.11.7"
+	}
+}

@@ -1,0 +1,164 @@
+input[type='text'] {
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.btn {
+	padding: 10px;
+	border-radius: 5px;
+}
+/* Search */
+#app-container {
+	margin: auto 0;
+	text-align: center;
+}
+
+#app-container h1 {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 10px;
+}
+
+#search-form input {
+	padding: 5px 40px;
+}
+#search-form button {
+	padding: 5px 40px;
+}
+
+.main-container {
+	margin: auto;
+}
+
+.book-title:hover {
+	font-size: 1.21em;
+	color: blue;
+	cursor: pointer;
+}
+
+.books-container {
+	width: 25%;
+	text-align: center;
+	margin: auto;
+}
+
+#books-list {
+	margin: 5px auto;
+	text-align: left;
+}
+
+.warning p {
+	font-size: 15px;
+	margin: 15px auto;
+}
+
+/* Wish List */
+.books-wish-list {
+	margin: 15px 10px;
+	text-align: left;
+}
+
+.wish-books {
+	margin: 5px;
+	width: 25%;
+}
+
+.wish-books h2 {
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+/* List Books */
+
+.books-container h2 {
+	font-size: 25px;
+	margin-top: 15px;
+	text-decoration: underline;
+}
+
+.li-books {
+	margin: 20px;
+}
+
+/* My Books */
+
+.mybooks-list {
+	font-size: 18px;
+	text-align: left;
+	margin: 20px;
+}
+
+.btn-primary {
+	background-color: yellowgreen;
+	color: white;
+	border-radius: 8px;
+	width: 70px;
+	transition-duration: 0.4s;
+}
+.btn-primary:hover {
+	background-color: white;
+	color: black;
+}
+
+.my-books-container {
+	margin: 5px;
+	width: 25%;
+}
+
+.my-books-container h2 {
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+.my-book:hover {
+	cursor: pointer;
+	color: red;
+}
+
+.main-content {
+	display: flex;
+	margin: auto 50px;
+
+	text-align: center;
+}
+
+.read {
+	text-decoration: line-through;
+}
+
+.searching {
+	border-color: blueviolet;
+}
+
+/* Books Already Read */
+
+.books-read-list {
+	margin: 15px 10px;
+	text-align: left;
+}
+
+.read-books {
+	margin: 5px;
+	width: 25%;
+}
+.read-books h2 {
+	font-size: 25px;
+	text-decoration: underline;
+}
+.read-books-list {
+	margin: 10px;
+}
+
+.read-book:hover {
+	color: coral;
+	cursor: pointer;
+}
+
+.chip-secondary {
+	background-color: blue;
+	color: white;
+	border-radius: 10%;
+	cursor: pointer;
+	padding: 2px;
+}
