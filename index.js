@@ -16,8 +16,8 @@ dotenv.config({ path: './server/config/config.env' });
 
 connectDB();
 
-app.listen(5000, function () {
-  console.log('Example app listening on port 5000!');
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
 });
 
 app.post('/api/v1/rating', async (req, res) => {
