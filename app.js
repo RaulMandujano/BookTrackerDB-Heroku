@@ -227,37 +227,6 @@ function showWishBooks(wishBooks) {
 	});
 }
 
-// star adding
-
-// function startRating() {
-// 	const allStarts = document.querySelectorAll('.fa-star');
-
-// 	console.log(allStarts.length);
-
-// 	allStarts.forEach((star) => {
-// 		star.addEventListener('mouseover', (event) => {
-// 			event.target.classList.toggle('checked');
-// 			const allPrevious = $(event.target).prevAll();
-
-// 			$(event.target)
-// 				.prevAll()
-// 				.each(function (index, star) {
-// 					console.log(star);
-// 					if (star.classList.contains('checked')) {
-// 						star.classList.remove('checked');
-// 					} else {
-// 						star.classList.add('checked');
-// 					}
-// 				});
-
-// 			console.log(allPrevious);
-// 			const id = event.target.id;
-// 			$('#' + id)
-// 				.prevAll()
-// 				.css('background-color', 'red');
-// 		});
-// 	});
-// }
 
 function rating(event) {
 	const idStr = event.target.id;
